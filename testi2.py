@@ -148,3 +148,78 @@ testi2 = tekstiä2.isalnum() #toimii koska Yhteenkirjoitettuna
 
 print(test1) #false
 print(testi2) #true
+
+
+print("""
+
+------------------------------------
+
+""")
+
+test1 = "Tässä tämä"
+test2 = "TÄSSÄHÄN"
+test3 = "T4M4 tässä"
+tekstiä = """Kokeillaan taas jälleen {} josko tämä
+tästä toimisi hienostokkin {} ja mitä tämän jälkeen
+{} kirjoitellaan vielä jotain lisää hienoa """
+
+print(tekstiä.format(test1, test2, test3))
+
+print("""
+-----------------------------------
+""")
+
+test4 = "Toimiiko"          #Jos ensimmäinen kirjain on iso niin vastaus on TRUE
+test5 = "TOIMIIKOTÄMÄKIN"
+test6 = "34234"
+test7 = "Romie"
+test8 = "Testi1", "Testi2", "Testi3", "Testi4", "Testi5"
+test9 = "= ".join(test8)    #Lisää yhtäkuin merkin "tekstin" jälkeen
+print(test9)
+
+print(test4.istitle())
+print(test5.istitle())
+print(test6.istitle())
+print(test7.istitle())
+print(test6.isnumeric())    #Jos tekstissä ilmenee numeroita.
+
+print("""
+--------------------------------
+
+""")
+
+tekstiä3 = """Jos jotain hienoa olen kirjoitellut, niin jatketaan sitä,
+jotta kaikki ei menisi harakoilleen, facepalm"""
+ehken = tekstiä3.maketrans("o", "p")    #Kääntää kyseisten merkit keskenään, o=sta tulee i'
+ehken2 = tekstiä3.maketrans("t", "a")
+print(tekstiä3.translate(ehken2))
+print(tekstiä3.translate(ehken))
+print("""
+-----------------------------------
+""")
+tekstiä4 = """Kokeillaan vaihtaa järjestystä, jossa toinen toimii toiselle
+ja kaikki toimii yhdessä
+pikkaisen vielä lisää"""
+
+ehken3 = tekstiä4.replace("vaihtaa", "toimii")
+print(ehken3)
+ehken4 = tekstiä4.title()
+print(ehken4 + ", Kirjoittaa kaikki alkavat lauseet isolla.")   #tässä tilanteessa jakaa rivinvaihdot ja näyttää ne heittomerkein.
+ehken5 = tekstiä4.splitlines()
+print(ehken5)
+
+print("""
+----------------------------------
+""")
+
+tekstiä5 = "kOKEILLAAN tAAS, mISSÄ kirjaimet, vAIHTAVAT pAIKKAANSA"
+ehken6 = tekstiä5.swapcase()
+print(ehken6)
+
+print("""
+-------------------------------
+""")
+
+ehken7 = {83: 80}                  #Käyttää ascii koodia joka korvaa S -> P:llä
+tekstiä8 = "Tervehdys Sasi"
+print(tekstiä8.translate(ehken7))
