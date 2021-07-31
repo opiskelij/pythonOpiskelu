@@ -1,0 +1,153 @@
+
+#print("Testataanko toimiiko")
+
+
+#toimii = input("Toimiiko")
+
+#if toimii == '1':
+#    import testi11.py
+#    print(testi11.py)
+#elif toimii == '2':
+#    print("Toimii")
+#
+#else:
+#   print("Kokeile jotain muuta")
+#
+#
+#
+#def funktio1():
+#    print("Kokeillaan toimiiko tämä")
+#    print("Jos toimii niin hienosti menee")
+#    print("Ai PRKL olen tyytyväinen tähän, että tämä toimii")
+#    print("Ja kuinka kauan tähänkin meni aikaa.........")
+#    print("Erittäin kauan.......")
+#
+#def funktio2():
+#    print("Kokeillaan taas toimiiko")
+#    print("Ehken tämä vielä tästä")
+#
+#def funktio3():
+#    print("Kokeillaan taas jotain uutta")
+#    valinta2 = input("Valintana 1, 2 tai 3")
+#    if valinta2 == '1':
+#        funktio4()
+#    elif valinta2 == '2':
+#        funktio2()
+#    elif valinta2 == '3':
+#        funktio1()
+#    else:
+#        funktio4()
+#
+#def funktio4():
+#    print("Taas mennään, tämähän on vain kokeellinen rakenne")
+#    print("Voisiko tästä jotain hienoa ajan mukana rakentaa?")
+#    valinta = input("Valintasi 1- Kyllä, 2 - Ei")
+#    if valinta == "Kyllä":
+#        print("Hienoa, sitä minäkin")
+#    elif valinta == "Ei":
+#        print("Kyllä se tästä vielä")
+#        return funktio4()
+#    else:
+#        print("Taisit painaa väärää näppäintä")
+#
+#
+#
+#print("Kokeillaan jotain hankalampaa ja yksilöllisempää")
+#nimi = input("Mikä on nimesi: ")
+#
+#
+#if nimi == 'veekoo':
+#    print("Tervehdys VeeKoo, kerrotko vielä avaimesi? ")
+#    avain = input("avain: ")
+#    avain2 = input("avain2: ")
+#    avain3 = input("avain3: ")
+#    if (avain == 'moi') and (avain2 == 'moi2') and (avain3 == 'moi3'):
+#        print("Kaikki oikein")
+#       print("Noniin VeeKoo, otetaan askel eteenpäin, mitä haluat tehdä? ")
+#        valinta = input("Valinta? 1 - funktio1, 2 - vunktio2")
+#
+#        if valinta == '1':
+#            funktio1()
+#        elif valinta == '2':
+#            funktio2()
+#        else:
+#           input("Kokeile jotain muuta valintaa.")
+#
+#
+#elif nimi == 'koovee':
+#    print("Tervehdys KooVee, kerrotko vielä avaimesi? ")
+#    avain4 = input("Avain 1: ")
+#    avain5 = input("Avain 2: ")
+#    avain6 = input("Avain 3: ")
+#    if(avain4 == 'moi4') and (avain5 == 'moi5') and (avain6 == 'moi6'):
+#        print("Kaikki toimii2")
+#        print("Noniin kokeillaan seuraava vaihetta, uusi vaihe silmään")
+#        print("mitä haluaisit tehdä?")
+#        valinta = input("Painamalla 3- funktio3 tai 4- funktio4")
+#        if valinta == '3':
+#            funktio3()
+#        elif valinta == '4':
+#            funktio4()
+#
+#
+#
+#
+#else:
+#    print("Kokeile toisen kerran uudestaan")
+#
+#
+##oman funktion luominen ---
+#def omafunktio():
+#    print("Kokeillaan nyt vielä kerran toimisiko tämä")
+#    print("Joten tämä funktio osuus toimii")
+#def omafunktio2():
+#    print("Vieläkö toimii paremmin?")
+#    print("Toistaako samat lauseet")
+#def omafunktio3():
+#    print("Kokeile jotain muuta")
+#    print("Tämäkin toimii"
+#          "ja toimii edelleen"
+#          "silti toimii")
+
+
+#print("Itsenäinen tässä hei")
+#testi1 = input("Syötä numero")
+
+#if testi1 == '1':
+#    omafunktio()
+#    omafunktio2()
+#
+#elif testi1 == '2':
+#    omafunktio2()
+#
+#else:
+#    omafunktio3()
+
+
+
+
+#def muuta_hinta(hinta):
+#    hinta = 250 + hinta
+#    return hinta        #ilman returnia tulosteessa ei ole mitään
+#hinta = 100
+#hinta = muuta_hinta(hinta)
+#print(hinta)
+
+#jakaja = input("Jotain")
+#
+#
+#def laskepituus(merkkijono):
+#    if len(merkkijono) < 42:
+#        return 0
+#    else:
+#        return 1
+#tulos = \
+#laskepituus("jotaintähänpistetään")
+#if tulos == True:
+#    print("Sana on pitkä")
+#else:
+#    print("Sana on lyhyt")
+
+
+
+
